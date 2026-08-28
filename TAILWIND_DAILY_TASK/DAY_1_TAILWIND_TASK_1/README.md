@@ -1,5 +1,10 @@
 # 🌐 Day 1 – Tailwind CSS Task 1
 
+## Output Screenshot
+
+<img width="1435" height="881" alt="Screenshot 2026-08-21 225156" src="https://github.com/user-attachments/assets/60795bfc-8ad6-488c-8368-e1a4a606a087" />
+
+
 A simple and responsive webpage created as part of my **Tailwind CSS Daily Tasks**. This project focuses on understanding the basic utility classes and styling approach of Tailwind CSS.
 
 ## 🚀 About the Project
