@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incredible India</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        body {
+            font-family: poppins;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- first Page -->
+    <div class="relative w-full h-[90vh] md:h-screen">
+
+        <!-- Navbar Section -->
+        <section class="fixed bg-black w-full text-white z-50">
+            <div class="flex items-center justify-between mx-5 my-2 gap-10 lg:py-3">
+                <div class="">
+                    <h1 class="text-md md:text-lg lg:text-3xl w-70 font-bold">Incredible 
+                        <span class="text-red-500 text-sm md:text-2xl lg:text-4xl">!</span>ndia</h1>
+                </div>
+                <div class="hidden md:flex justify-between items-center gap-10 overflow-x-auto">
+                    <a class="shrink-0 hover:text-red-500 md:text-lg" href="#">Destinations</a>
+                    <a class="shrink-0 hover:text-red-500 md:text-lg" href="#">Experience</a>
+                    <a class="shrink-0 hover:text-red-500 md:text-lg" href="#">Plan your trip</a>
+                    <a class="shrink-0 hover:text-red-500 md:text-lg" href="#">Festival & Events</a>
+                </div>
+            </div>
+        </section>
+
+        <!--video background-->
+        <video autoplay muted loop class="absolute inset-0 w-full h-full object-cover">
+            <source src="https://www.incredibleindia.gov.in/content/dam/incredible-india/videos/home/India-360-v2.mp4"
+                type="video/mp4">
+        </video>
+
+        <!-- Dark overlay-->
+
+        <div class="absolute inset-0 bg-black/50"></div>
+
+        <!--Download btn-->
+        <button
+            class="fixed z-50 bg-[#ff000f] text-white text-xs md:text-lg top-80 [writing-mode:vertical-rl] px-4 pr-1 rounded-r-lg">
+            Download App
+        </button>
+
+        <!--booking btn-->
+        <button
+            class="fixed z-50 bg-[#ff000f] text-white text-xs md:text-lg right-0 top-76 [writing-mode:vertical-rl] px-4 pr-1 rounded-r-lg rotate-180">
+            Book your Travel
+        </button>
+
+        <!--elements-->
+        <div class="absolute bottom-15 z-5 w-full pl-5 text-white">
+            <div class="flex gap-10 overflow-x-auto">
+                <a href="#" class="shrink-0 hover:text-yellow-400">India 360</a>
+                <div class="shrink-0 h-8 w-[2px] bg-yellow-400"></div>
+                <a href="#" class="shrink-0 hover:text-yellow-400">Adventure</a>
+                <div class="shrink-0 h-8 w-[2px] bg-yellow-400"></div>
+                <a href="#" class="shrink-0 hover:text-yellow-400">Nature</a>
+                <div class="shrink-0 h-8 w-[2px] bg-yellow-400"></div>
+                <a href="#" class="shrink-0 hover:text-yellow-400">Wildlife</a>
+                <div class="shrink-0 h-8 w-[2px] bg-yellow-400"></div>
+                <a href="#" class="shrink-0 hover:text-yellow-400">Heritage</a>
+                <div class="shrink-0 h-8 w-[2px] bg-yellow-400"></div>
+                <a href="#" class="shrink-0 hover:text-yellow-400">Spiritual</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Second Page -->
+    <section class="relative w-full bg-[url('redfort.jpg')] h-full bg-no-repeat bg-center bg-cover">
+        <div class="flex flex-col items-center justify-center">
+            <h1 class="text-3xl md:text-7xl lg:text-9xl font-bold text-white z-10 mt-5">
+                DESTINATIONS
+            </h1>
+            <p class="text-sm md:text-2xl lg:text-4xl text-white z-10 mt-5">
+                -- for every bucket list --
+            </p>
+        </div>
+
+        <!-- h1, button -->
+        <div class="h-130 md:h-150 flex flex-col justify-end">
+            <div class="flex flex-col mb-7 gap-3 lg:gap-8 z-10">
+                <div>
+                    <h1 class="text-center text-white font-semibold text-2xl md:text-4xl lg:text-5xl ">
+                        Delhi
+                    </h1>
+                </div>
+
+                <div class="text-center mb-4 lg:mb-10">
+                    <a href="#"
+                        class="bg-[#ff000f] text-center text-white text-xs md:text-md lg:text-lg  px-5 py-2 rounded-3xl z-10">
+                        Discover more
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dark overlay-->
+
+        <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/20 to-black/70"></div>
+
+    </section>
+
+    <!-- Third page -->
+
+    <section class="relative w-full bg-[url('mahabali.jpg')] bg-center bg-cover">
+        <div class="flex flex-col z-10">
+            <h1 class="text-center text-3xl md:text-7xl lg:text-9xl text-rose-600 font-bold mt-10 z-10">ATTRACTIONS</h1>
+            <p class="text-sm md:text-2xl lg:text-4xl text-center w-full text-rose-600 mt-5 z-10">-- worth a thousand
+                stories --</p>
+        </div>
+        <!-- cards -->
+        <div class="flex flex-col lg:flex-row items-center justify-evenly gap-5 my-10 mx-10">
+            <div
+                class="z-10 h-110 w-80 bg-[url('golden.jpg')] bg-cover rounded-2xl hover:scale-105 transform duration-200 flex items-end justify-center shadow-2xl">
+                <h1 class="mb-13 font-semibold text-md lg:text-2xl text-white">Golden Temple</h1>
+            </div>
+            <div
+                class="z-10 h-110 w-80 bg-[url('tajmahal.jpg')] bg-cover rounded-2xl hover:scale-105 transform duration-200 flex items-end justify-center shadow-2xl">
+                <h1 class="mb-13 font-semibold  text-md lg:text-2xl text-white">Taj Mahal</h1>
+            </div>
+            <div
+                class="z-10 h-110 w-80 bg-[url('tulip.jpg')] bg-cover rounded-2xl hover:scale-105 transform duration-200 flex items-end justify-center shadow-2xl">
+                <h1 class="mb-13 font-semibold  text-md lg:text-2xl text-white">Tulips Garden</h1>
+            </div>
+            <div
+                class="z-10 h-110 w-80 bg-[url('charminar.jpg')] bg-cover rounded-2xl hover:scale-105 transform duration-200 flex items-end justify-center shadow-2xl">
+                <h1 class="mb-13 font-semibold  text-md lg:text-2xl text-white">Charminar</h1>
+            </div>
+        </div>
+        <!-- btn -->
+        <div class="flex justify-center pt-4 pb-10">
+            <a href="#"
+                class="bg-[#ff000f] text-center text-white text-xs md:text-md lg:text-lg  px-5 py-2 rounded-3xl z-10">
+                Discover more
+            </a>
+        </div>
+        <!-- white overlay-->
+        <div class="absolute inset-0 bg-white/70"></div>
+
+    </section>
+
+    <!-- fourth page -->
+    <section class="relative w-full bg-[url('lemonbg.jpg')] bg-center bg-cover">
+        <div class="flex flex-col">
+            <h1 class="text-4xl md:text-6xl lg:text-9xl text-center text-green-600 font-bold mb-3 mt-10">TRAVEL DIARIES
+            </h1>
+            <p class=" text-green-600 text-center md:text- lg:text-3xl mb-7">-- for every passion --</p>
+        </div>
+
+        <div class="flex justify-center gap-10">
+            <select class="bg-white shadow-lg text-green-600 p-4 w-auto md:w-45 lg:w-60 text-center font-bold">
+                <option>Interest</option>
+                <option>One</option>
+                <option>Two</option>
+            </select>
+
+            <select class="bg-white shadow-lg text-green-600 text-center w-25 lg:w-30 p-4 bold font-bold">
+                <option>Region</option>
+                <option>One</option>
+                <option>Two</option>
+            </select>
+        </div>
+        <!-- cards -->
+        <div class="flex flex-col lg:flex-row items-center justify-center gap-5 my-10 mx-10">
+
+            <!-- card-1 -->
+            <div class="h-110 w-80 grid grid-rows-2 bg-black hover:-translate-y-10 transition duration-300 shadow-2xl">
+                <div class="bg-[url('andaman.jpeg')] bg-center bg-cover"></div>
+                <div class="p-2">
+                    <h1 class="font-semibold text-lg text-red-600 mb-3">Andaman and Nicobar Island</h1>
+                    <p class="text-white text-2xl font-semibold">Adventure sports in and around sri bijaya
+                        puiram:Thrils amidist..</p>
+                </div>
+            </div>
+
+            <!-- card-2 -->
+            <div class="h-110 w-80 grid grid-rows-2 bg-black hover:-translate-y-10 transition duration-300 shadow-2xl">
+                <div class="bg-[url('tamilnadu.jpg')] bg-center bg-cover"></div>
+                <div class="p-2">
+                    <h1 class="font-semibold text-lg text-red-600 mb-3">Tamil Nadu</h1>
+                    <p class="text-white text-xl font-semibold">Place to see in central Tamil Nadu.</p>
+                </div>
+            </div>
+
+            <!-- card-3 -->
+            <div class="h-110 w-80 grid grid-rows-2 bg-black hover:-translate-y-10 transition duration-300 shadow-2xl">
+                <div class="bg-[url('Ladakh.jpeg')] bg-center bg-cover">
+                </div>
+                <div class="p-3">
+                    <h1 class="font-semibold text-lg text-red-600 mb-3">Ladakh</h1>
+                    <p class="text-white text-xl font-semibold">The orchad of charm in Nubra Valley.</p>
+                </div>
+            </div>
+
+            <!-- card-4 -->
+            <div class="h-110 w-80 grid grid-rows-2 bg-black hover:-translate-y-10 transition duration-300 shadow-2xl">
+                <div class="bg-[url('kerala.jpg')] bg-center bg-cover">
+                </div>
+                <div class="p-3">
+                    <h1 class="font-semibold text-lg text-red-600 mb-3">Kerala</h1>
+                    <p class="text-white text-xl font-semibold">Munnar travel blog Tourist places, best time to
+                        visit hotels and more...</p>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center pb-10">
+            <a href="#" class="bg-green-600 text-white text-center text-xs md:text-lg z-10 w-40 px-1 py-2 rounded-3xl">
+                Discover more
+            </a>
+        </div>
+
+    </section>
+
+    <!-- fifth page -->
+    <section
+        class="relative w-full bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUb3IHqFFAeD5Ku0t3UABsXar5Gw9S1fEJWXoVjAeYiA&s=10')] bg-center bg-cover">
+        <div class="flex flex-col">
+            <h1 class="text-4xl md:text-6xl lg:text-9xl text-center text-cyan-500 font-bold mb-3 mt-10 z-10">ITINERARIES
+            </h1>
+            <p class=" text-cyan-500 text-center md:text- lg:text-3xl mb-7 z-10">-- that beckon every traveller --</p>
+        </div>
+
+        <div class="flex justify-center gap-2 lg:gap-10">
+            <select
+                class="bg-white shadow-lg text-cyan-500 p-4 w-auto text-sm md:text-md lg:w-60 text-center font-bold z-10">
+                <option>Region</option>
+                <option>One</option>
+                <option>Two</option>
+            </select>
+
+            <select
+                class="bg-white shadow-lg text-cyan-500 text-center text-sm md:text-md w-25 lg:w-30 p-4 bold font-bold z-10">
+                <option>Interest</option>
+                <option>One</option>
+                <option>Two</option>
+            </select>
+
+            <select
+                class="bg-white shadow-lg text-cyan-500 text-center text-sm md:text-md w-30 lg:w-50 p-4 bold font-bold z-10">
+                <option>Trip Length</option>
+                <option>One</option>
+                <option>Two</option>
+            </select>
+        </div>
+        <!-- cards -->
+        <div class="flex flex-col lg:flex-row items-center justify-center gap-4 lg:gap-10 mt-20 mx-10">
+
+            <!-- card-1 -->
+            <div class="h-130 w-70 grid grid-rows-3 bg-transparent hover:-translate-y-10 transition duration-300 z-10">
+                <div
+                    class="row-span-2 bg-[url('https://s7ap1.scene7.com/is/image/incredibleindia/1-padmavati-temple-tirupati-andhra-pradesh-tri-hero?qlt=82&ts=1727162699974&wid=800')] bg-center bg-cover rounded-full">
+                </div>
+                <div class="row-span-1 text-center p-2 mt-4">
+                    <h1 class="font-semibold text-lg text-red-600 mb-3">2 Days Tirupati</h1>
+                    <p class="text-black text-lg font-semibold">>A land of beauty and
+                        spiritual divinity</p>
+                </div>
+            </div>
+
+            <!-- card-2 -->
+            <div class="h-130 w-70 grid grid-rows-3 bg-transparent hover:-translate-y-10 transition duration-300 z-10">
+                <div
+                    class="row-span-2 bg-[url('https://s7ap1.scene7.com/is/image/incredibleindia/purana-quila-delhi-tri-hero?qlt=82&ts=1727163241615&wid=800')] bg-center bg-cover rounded-full">
+                </div>
+                <div class="row-span-1 text-center p-2 mt-4">
+                    <h1 class="font-semibold text-lg text-red-600 mb-3">2 Days Delhi</h1>
+                    <p class="text-black text-lg font-semibold">48 hours in Delhi</p>
+                </div>
+            </div>
+
+            <!-- card-3 -->
+            <div class="h-130 w-70 grid grid-rows-3 bg-transparent hover:-translate-y-10 transition duration-300 z-10">
+                <div
+                    class="row-span-2 bg-[url('https://s7ap1.scene7.com/is/image/incredibleindia/anamudi-peak-munnar-kerala-tri-hero?qlt=82&ts=1727164475934&wid=800')] bg-center bg-cover rounded-full">
+                </div>
+                <div class="row-span-1 text-center p-2 mt-4">
+                    <h1 class="font-semibold text-lg text-red-600 mb-3">2 days Munnar</h1>
+                    <p class="text-black text-lg font-semibold">A 2--day tour in Munnar</p>
+                </div>
+            </div>
+
+            <!-- card-4 -->
+            <div class="h-130 w-70 grid grid-rows-3 bg-transparent hover:-translate-y-10 transition duration-300 z-10">
+                <div
+                    class="row-span-2 bg-[url('https://s7ap1.scene7.com/is/image/incredibleindia/adiyogi-shiva-statue-coimbatore-tamil-nadu-tri-hero?qlt=82&ts=1727167160763&wid=800')] bg-center bg-cover rounded-full">
+                </div>
+                <div class="row-span-1 text-center p-2 mt-4">
+                    <h1 class="font-semibold text-lg text-red-600 mb-3">2 Day Coimbatore</h1>
+                    <p class="text-black text-lg font-semibold">A 2-day in coimbatore delights</p>
+                </div>
+            </div>
+            <!-- card-5 -->
+            <div class="h-130 w-70 grid grid-rows-3 bg-transparent hover:-translate-y-10 transition duration-300 z-10">
+                <div
+                    class="row-span-2 bg-[url('https://s7ap1.scene7.com/is/image/incredibleindia/lower-shivalaya-badami-karnataka-tri-hero?qlt=82&ts=1727164532940&wid=800')] bg-center bg-cover rounded-full">
+                </div>
+                <div class="row-span-1 text-center p-2 mt-4">
+                    <h1 class="font-semibold text-lg text-red-600 mb-3">2 Day Badami</h1>
+                    <p class="text-black text-lg font-semibold">Badami in a Blink</p>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center pb-10">
+            <a href="#" class="bg-cyan-500 text-white text-center text-xs md:text-lg z-10 w-40 px-1 py-2 rounded-3xl">
+                Discover more
+            </a>
+        </div>
+
+        <!-- white overlay -->
+        <div class="absolute inset-0 bg-gradient-to-b from-white/90 via-white/20 to-white/70"></div>
+
+    </section>
+
+    <!-- sixth page -->
+
+    <section class="relative w-full">
+        <div
+            class="bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUb3IHqFFAeD5Ku0t3UABsXar5Gw9S1fEJWXoVjAeYiA&s=10')] bg-center bg-cover">
+            <div class="flex flex-col pt-15 mb-5">
+                <p class="text-center text-gray-300 text-lg md:text-3xl z-7 pb-4">-- Uncover India's --</p>
+                <h1 class="text-center text-4xl md:text-6xl lg:text-9xl text-gray-300 font-bold z-7 ">LESSOR KNOWN
+                    WONDERS</h1>
+            </div>
+            <!-- card -->
+            <div class="flex justify-center items-center pt-10">
+                <div class="bg-[url('https://s7ap1.scene7.com/is/image/incredibleindia/kanthalloor-village-kerala-rural-hero?qlt=82&ts=1726643529094')] w-150 md:w-250 h-140 rounded-4xl z-10 bg-center bg-cover"
+                    alt="kanthalloor">
+                    <div class="h-140 flex justify-between items-end md:px-10 pb-15">
+                        <div>
+                            <h1
+                                class="text-center text-xl pl-5 md:text-3xl lg:text-5xl text-yellow-500 font-bold pb-2 z-11">
+                                Kanthalloor</h1>
+                            <p class="text-center text-lg pl-5 md:text-2xl text-white z-11">Kashmir of Kerala</p>
+                        </div>
+                        <div>
+                            <h1 class="text-center text-white text-lg pr-10 md:text-3xl font-bold pb-5 z-11">📍 Kerala
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex justify-center py-10">
+                <a href="#"
+                    class="bg-cyan-500 text-white text-center text-xs md:text-lg z-10 w-40 px-1 py-2 rounded-3xl">Discover
+                    more</a>
+            </div>
+
+            <!-- white overlay-->
+            <div class="absolute inset-0 bg-gradient-to-t from-white/90 to-white/100"></div>
+
+    </section>
+
+    <!-- seventh page -->
+    <section class="relative w-full bg-[linear-gradient(to_bottom,red_50%,white_50%)]">
+        <div class="flex flex-col py-4 md:py-5 lg:py-10">
+            <h1 class="text-2xl md:text-6xl lg:text-8xl text-center text-white font-bold z-7 pb-5">EXQUISITE CRAFTS</h1>
+            <p class="text-lg md:text-3xl text-center text-white z-7">-- for every passion --</p>
+        </div>
+        <!-- cards -->
+        <div class="px-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+
+                <!-- card-1 -->
+                <div class="h-90 md:h-110 bg-gray-200 hover:-translate-y-10 transition duration-300 shadow-2xl">
+                    <div
+                        class="bg-[url('https://s7ap1.scene7.com/is/image/incredibleindia/warli-art-maharashtra-1-craft-popular?qlt=82&ts=1726674307786')] bg-center bg-cover h-60">
+                    </div>
+                    <div class="p-3">
+                        <h1 class="font-semibold text-lg text-red-600 mb-3">Maharashtra</h1>
+                        <p class="text-2xl font-semibold">Warli painting</p>
+                    </div>
+                </div>
+
+                <!-- card-2 -->
+                <div class="h-90 md:h-110 bg-gray-200 hover:-translate-y-10  duration-300 shadow-2xl">
+                    <div
+                        class="bg-[url('https://s7ap1.scene7.com/is/image/incredibleindia/muga-silk-assam-craft-popular?qlt=82&ts=1727012343358')] bg-center bg-cover h-60">
+                    </div>
+                    <div class="p-3">
+                        <h1 class="font-semibold text-lg text-red-600 mb-3">Assam</h1>
+                        <p class="text-2xl font-semibold">Muga silks</p>
+                    </div>
+                </div>
+
+                <!-- card-3 -->
+                <div class="h-90 md:h-110 bg-gray-200 hover:-translate-y-10 transition duration-300 shadow-2xl">
+                    <div
+                        class="bg-[url('https://s7ap1.scene7.com/is/image/incredibleindia/phulkari-1-craft-popular?qlt=82&ts=1726641323700')] bg-center bg-cover h-60">
+                    </div>
+                    <div class="p-3">
+                        <h1 class="font-semibold text-lg text-red-600 mb-3">Punjab</h1>
+                        <p class="text-2xl font-semibold">Phulkari</p>
+                    </div>
+                </div>
+
+                <!-- card-4 -->
+                <div class="h-90 md:h-110 bg-gray-200 hover:-translate-y-10 transition duration-300 shadow-2xl">
+                    <div
+                        class="bg-[url('https://s7ap1.scene7.com/is/image/incredibleindia/aranmula-kannadi-kerala-1-craft-popular?qlt=82&ts=1726641462848')] bg-center bg-cover h-60">
+                    </div>
+                    <div class="p-3">
+                        <h1 class="font-semibold text-lg text-red-600 mb-3">Kerala</h1>
+                        <p class="text-2xl font-semibold">Aranmula Kannadi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center py-10">
+            <a href="#" class="bg-red-500 text-white text-center text-xs md:text-lg z-10 w-40 px-1 py-2 rounded-3xl">
+                Discover more
+            </a>
+        </div>
+    </section>
+
+
+    <!-- eighth page -->
+
+    <section class="relative w-full">
+        <div class="flex flex-col py-10">
+            <p class="text-lg md:2xl lg:text-3xl text-center text-red-500 pb-5 z-7">-- Every day a --</p>
+            <h1 class="text-3xl md:text-7xl lg:text-9xl text-red-500 text-center font-bold z-7 ">CELEBRATION</h1>
+        </div>
+        <div class="flex flex-col items-center md:flex-row justify-center gap-7">
+            <select class="text-sm md:text-lg bg-white text-red-500 shadow-lg p-4 w-32 text-center font-bold z-7">
+                <option>By Month</option>
+                <option>One</option>
+                <option>Two</option>
+            </select>
+
+            <select class="text-sm md:text-lg bg-white text-red-500 shadow-lg text-center w-50 p-4 bold font-bold z-7">
+                <option>By States & UTs</option>
+                <option>One</option>
+                <option>Two</option>
+            </select>
+
+            <select class="text-sm md:text-lg bg-white text-red-500 shadow-lg text-center w-40 p-4 bold font-bold z-7">
+                <option>By Interests</option>
+                <option>One</option>
+                <option>Two</option>
+            </select>
+        </div>
+
+        <!-- cards(row-1) -->
+        <div class="relative w-full z-10 mt-15 mb-10">
+            <div class="grid gris-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mx-20">
+
+                <!-- card-1 -->
+                <div class="flex flex-col h-90 bg-gray-200 shadow-xl rounded-xl">
+                    <div class="bg-[url('https://www.incredibleindia.gov.in/content/dam/incredible-india/images/utsav-festivals-and-events/utsav-events/andhra-pradesh/rottela-panduga/Hero-Banner.jpg')]
+                         rounded-t-xl bg-center bg-cover h-60 w-full">
+                    </div>
+                    <div class="p-3">
+                        <!-- <h1 class="font-semibold text-lg text-red-600 mb-3">Maharashtra</h1> -->
+                        <p class="text-md md:text-xl lg:text-2xl font-semibold mt-4">Rottela Panduga 2026</p>
+                    </div>
+                </div>
+
+                <!-- card-2 -->
+                <div class="flex flex-col h-90 bg-gray-200 shadow-xl rounded-xl">
+                    <div class="bg-[url('https://www.incredibleindia.gov.in/content/dam/incredible-india/images/utsav-festivals-and-events/utsav-events/haryana/mango-mela/DSC08597-min-scaled.jpg')]
+                         rounded-t-xl bg-center bg-cover h-60 w-full">
+                    </div>
+                    <div class="p-3">
+                        <!-- <h1 class="font-semibold text-lg text-red-600 mb-3">Mango Mela</h1> -->
+                        <p class="text-md md:text-xl lg:text-2xl font-semibold mt-4">Mango Mela</p>
+                    </div>
+                </div>
+
+                <!-- card-3 -->
+                <div class="flex flex-col h-90 bg-gray-200 shadow-xl rounded-xl">
+                    <div class="bg-[url('https://www.incredibleindia.gov.in/content/dam/incredible-india/images/utsav-festivals-and-events/utsav-events/chhattisgarh/bastar-goncha-festival-2026/right.jpg')]
+                         rounded-t-xl bg-center bg-cover h-60 w-full">
+                    </div>
+                    <div class="p-3">
+                        <!-- <h1 class="font-semibold text-lg text-red-600 mb-3">Maharashtra</h1> -->
+                        <p class="text-md md:text-xl lg:text-2xl font-semibold mt-4">Bastard Goncha Festival 2026</p>
+                    </div>
+                </div>
+
+                <!-- card-4 -->
+                <div class="flex flex-col h-90 bg-gray-200 shadow-xl rounded-xl">
+                    <div class="bg-[url('https://www.incredibleindia.gov.in/content/dam/incredible-india/images/utsav-festivals-and-events/utsav-events/telangana/bonalu/bonalu1/4138_bonalu.jpg')]
+                         rounded-t-xl bg-center bg-cover h-60 w-full">
+                    </div>
+                    <div class="p-3">
+                        <!-- <h1 class="font-semibold text-lg text-red-600 mb-3">Maharashtra</h1> -->
+                        <p class="text-md md:text-xl lg:text-2xl font-semibold mt-4">Bonalu Telangana
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- cards(row-2) -->
+        <div class="relative w-full z-10 my-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mx-20">
+
+                <!-- card-1 -->
+                <div class="flex flex-col h-90 bg-gray-200 shadow-xl rounded-xl">
+                    <div class="bg-[url('https://www.incredibleindia.gov.in/content/dam/incredible-india/images/utsav-festivals-and-events/utsav-events/madhya-pradesh/shraddha-samaroh-/SP%20Left%20Side.png')]
+                         rounded-t-xl bg-center bg-cover h-60 w-full">
+                    </div>
+                    <div class="p-3">
+                        <!-- <h1 class="font-semibold text-lg text-red-600 mb-3">Maharashtra</h1> -->
+                        <p class="text-md md:text-xl lg:text-2xl font-semibold mt-4">Shraddha Samaroh</p>
+                    </div>
+                </div>
+
+                <!-- card-2 -->
+                <div class="flex flex-col h-90 bg-gray-200 shadow-xl rounded-xl">
+                    <div class="bg-[url('https://www.incredibleindia.gov.in/content/dam/incredible-india/images/utsav-festivals-and-events/utsav-events/maharashtra/pandhrichi-vaari/RightSide-Image.jpeg')]
+                         rounded-t-xl bg-center bg-cover h-60 w-full">
+                    </div>
+                    <div class="p-3">
+                        <!-- <h1 class="font-semibold text-lg text-red-600 mb-3">Maharashtra</h1> -->
+                        <p class="text-md md:text-xl lg:text-2xl font-semibold mt-4">pandhrichi Vaari</p>
+                    </div>
+                </div>
+
+                <!-- card-3 -->
+                <div class="flex flex-col h-90 bg-gray-200 shadow-xl rounded-xl">
+                    <div class="bg-[url('https://www.incredibleindia.gov.in/content/dam/incredible-india/images/utsav-festivals-and-events/utsav-events/goa/chikhal-kalo/Chikhal%20Kalo%202-active%20wallpaper.jpg')]
+                         rounded-t-xl bg-center bg-cover h-60 w-full">
+                    </div>
+                    <div class="p-3">
+                        <!-- <h1 class="font-semibold text-lg text-red-600 mb-3">Maharashtra</h1> -->
+                        <p class="text-md md:text-xl lg:text-2xl font-semibold mt-4">Chikhal Kalo</p>
+                    </div>
+                </div>
+
+                <!-- card-4 -->
+                <div class="flex flex-col h-90 bg-gray-200 shadow-xl rounded-xl">
+                    <div class="bg-[url('https://www.incredibleindia.gov.in/content/dam/incredible-india/images/utsav-festivals-and-events/utsav-events/andhra-pradesh/sri-jagannatha-ratha-yatra-/Hero-Banner.png')]
+                         rounded-t-xl bg-center bg-cover h-60 w-full">
+                    </div>
+                    <div class="p-3">
+                        <!-- <h1 class="font-semibold text-lg text-red-600 mb-3">Maharashtra</h1> -->
+                        <p class="text-md md:text-xl lg:text-2xl font-semibold mt-4">SRI JAGANNATHA RATHA YATRA</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="flex justify-center pb-10">
+            <a href="#" class="bg-red-500 text-white text-center text-xs md:text-lg z-10 w-40 px-1 py-2 rounded-3xl">
+                Discover more
+            </a>
+        </div>
+
+        <!-- white overlay-->
+
+        <div class="absolute inset-0 bg-gradient-to-t from-white/90 to-white/80"></div>
+
+    </section>
+
+    <!-- ninth page -->
+
+    <section class="relative w-full">
+        <div
+            class="bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpqDaRBS8sm3uhZMdKISd5urAtfsrP3D8RbGRb6qFoPw&s=10')] bg-center bg-cover p-6 md:p-10 lg:p-16">
+
+            <!-- Heading -->
+            <p class="text-xl md:text-2xl lg:text-4xl text-center text-white">Inspired?</p>
+            <h1 class="text-4xl md:text-6xl lg:text-9xl text-center text-white font-bold mt-3">GET STARTED</h1>
+
+            <!-- Travel Options Grid -->
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mt-8 mx-5">
+                <div
+                    class="border border-white hover:scale-105 transition duration-300 hover:bg-gray-600 text-white rounded-md text-center py-3 shadow-xl">
+                    ✈️ Flights</div>
+                <div
+                    class="border border-white hover:scale-105 transition duration-300 hover:bg-gray-600 text-white rounded-md text-center py-3 shadow-xl">
+                    🚅 Trains</div>
+                <div
+                    class="border border-white hover:scale-105 transition duration-300 hover:bg-gray-600 text-white rounded-md text-center py-3 shadow-xl">
+                    🚌 Buses</div>
+                <div
+                    class="border border-white hover:scale-105 transition duration-300 hover:bg-gray-600 text-white rounded-md text-center py-3 shadow-xl">
+                    🚕 Cabs</div>
+                <div
+                    class="border border-white hover:scale-105 transition duration-300 hover:bg-gray-600 text-white rounded-md text-center py-3 shadow-xl">
+                    🏢 Accommodations</div>
+                <div
+                    class="border border-white hover:scale-105 transition duration-300 hover:bg-gray-600 text-white rounded-md text-center py-3 shadow-xl">
+                    👥 Travel Partners</div>
+            </div>
+
+            <!-- Washrooms Button -->
+            <div class="grid place-items-center mt-5">
+                <div
+                    class="border border-white hover:scale-105 transition duration-300 hover:bg-gray-600 text-white rounded-md text-center py-3 px-10 shadow-xl">
+                    🚿 Washrooms
+                </div>
+            </div>
+
+            <!-- Trip Type Links -->
+            <div class="flex flex-wrap justify-center text-white text-lg mt-7 gap-6">
+                <a href="#" class="hover:text-yellow-300 hover:underline">One Way</a>
+                <a href="#" class="hover:text-yellow-300 hover:underline">Round Trip</a>
+            </div>
+
+            <!-- Booking Form -->
+            <form class="mt-7 p-4">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-5">
+                    <input type="text" placeholder="From Origin" class="h-12 rounded-lg text-center bg-white w-full" />
+                    <input type="text" placeholder="To Destination"
+                        class="h-12 rounded-lg text-center bg-white w-full" />
+                    <input type="date" class="h-12 rounded-lg text-center bg-white w-full" />
+                    <select class="h-12 rounded-lg bg-white text-center w-full">
+                        <option>1 Traveler</option>
+                        <option>2 Travelers</option>
+                        <option>3 Travelers</option>
+                        <option>4 Travelers</option>
+                        <option>5 or above</option>
+                    </select>
+                    <select class="h-12 rounded-lg bg-white text-center w-full">
+                        <option>Economy</option>
+                        <option>Premium Economy</option>
+                        <option>Business Class</option>
+                        <option>First Class</option>
+                    </select>
+                </div>
+
+                <!-- Fare Type -->
+                <div class="flex flex-wrap justify-center text-white mt-8 gap-3">
+                    <label class="text-lg w-full text-center">Select A Fare Type:</label>
+                    <div class="flex flex-wrap gap-3 justify-center w-full">
+                        <label class="border rounded-lg bg-white text-black px-4 py-2">
+                            <input type="radio" name="fare_type" class="mr-2"> Regular Fares
+                        </label>
+                        <label class="border rounded-lg bg-white text-black px-4 py-2">
+                            <input type="radio" name="fare_type" class="mr-2"> Armed Forces
+                        </label>
+                        <label class="border rounded-lg bg-white text-black px-4 py-2">
+                            <input type="radio" name="fare_type" class="mr-2"> Student
+                        </label>
+                        <label class="border rounded-lg bg-white text-black px-4 py-2">
+                            <input type="radio" name="fare_type" class="mr-2"> Senior Citizen
+                        </label>
+                        <label class="border rounded-lg bg-white text-black px-4 py-2">
+                            <input type="radio" name="fare_type" class="mr-2"> Doctors & Nurses
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Direct Flight -->
+                <div class="text-white text-lg mt-6 text-center">
+                    <input type="checkbox" class="mx-2"> Direct flight only
+                </div>
+
+                <!-- Search Button -->
+                <div class="mt-5 flex justify-center">
+                    <a href="#" class="bg-gray-400 text-center px-12 py-2 rounded-full">Search</a>
+                </div>
+            </form>
+
+            <!-- Footer Note -->
+            <div class="mt-10 flex justify-center">
+                <p class="text-gray-100 text-sm text-center">
+                    The information related to booking is provided through API integration from various Online Travel
+                    Aggregators (OTA). Other OTAs interested in integration with Incredible India Digital Portal may
+                    contact the Ministry of Tourism.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="relative bg-[url('mountain.jpg')] bg-center bg-cover text-white w-full px-10 pt-10">
+        <div class="flex flex-col items-center lg:flex-row justify-evenly gap-10">
+            <div class="text-center md:text-start z-10">
+                <h1 class="text-4xl font-bold z-10">Incredible <span class="text-red-500 text-5xl">!</span>ndia</h1>
+                <h1 class="mt-5 text-lg font-semibold">Follow us</h1>
+                <div class="flex mt-3 gap-5 justify-center md:justify-start">
+                    <div
+                        class="w-10 h-10 bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB97uUnv97brQzml20xxyp3DaFMi4Dwl3zyF_tQD9q2A&s=10')] bg-center bg-cover z-10 rounded-full">
+                    </div>
+                    <div
+                        class="w-10 h-10 bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiJkrHH4n1aTFJJD-zLsTkg8mluZJMGgTfEOumeI2sbA&s=10')] bg-center bg-cover z-10 rounded-full">
+                    </div>
+                    <div
+                        class="w-10 h-10 bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS2ox5zNKfPyvwx8s3_Sy7lCBhJiBdQY-2w1WRyfyTJg&s=10')] bg-center bg-cover z-10 rounded-full">
+                    </div>
+                    <div
+                        class="w-10 h-10 bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTpq_3AavHKSu_WM1z175PaUVUB6NMpyQYx-0dadjofg&s=10')] bg-center bg-cover z-10 rounded-full">
+                    </div>
+                    <div
+                        class="w-10 h-10 bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa_akgEwgjmKQqyX0nhqVdTF9dEU7u0Pyu0aqMJVmPjg&s')] bg-center bg-cover z-10 rounded-full">
+                    </div>
+                </div>
+                <p class="mt-7 text-lg font-semibold">Download App Now</p>
+                <p class="mt-2 text-lg">Download and visit Incredible India mobile app.</p>
+                <div class="flex mt-2 justify-center md:justify-start">
+                    <div
+                        class="w-45 h-15 bg-[url(https://www.incredibleindia.gov.in/content/dam/incredible-india/images/global/get-playstore-google-appln.png)] bg-center bg-cover z-10">
+                    </div>
+                    <div
+                        class="w-45 h-15 bg-[url(https://www.incredibleindia.gov.in/content/dam/incredible-india/images/global/download-apple-store-appln.png)] bg-center bg-cover z-10">
+                    </div>
+                </div>
+            </div>
+            <div class="text-white flex flex-col leading-10 z-10">
+                <h1 class="font-bold text-3xl mb-5">Quick links</h1>
+                <a href="" class="hover:text-red-600 transition duration-200">Live Darshan</a>
+                <a href="" class="hover:text-red-600 transition duration-200">Experience</a>
+                <a href="" class="hover:text-red-600 transition duration-200">Festivals and Events</a>
+                <a href="" class="hover:text-red-600 transition duration-200">Incredible India Content Hub</a>
+                <a href="" class="hover:text-red-600 transition duration-200">SEPC Medical Tourism Portal</a>
+                <a href="" class="hover:text-red-600 transition duration-200">FAQs</a>
+            </div>
+            <div class="flex flex-col z-10 lg:h-70">
+                <h1 class="font-bold text-3xl">Scan to chat</h1>
+                <div class="w-25 h-25 bg-[url(qrcode.png)] 
+                bg-center bg-cover mt-5 ml-2 z-10"></div>
+            </div>
+        </div>
+
+        
+        <div class="flex justify-center mt-10 md:mt-4">
+            <div class="w-full h-[2px] bg-white z-10"></div>
+        </div>
+
+        <div class="text-white font-medium">
+            <div class="flex flex-col md:flex-row items-center justify-center mt-4 gap-2 md:gap-15">
+                <a href="#" class="hover:text-red-600 transition duration-200 z-10">Term of use</a>
+                <div class="md:h-8 w-[2px] bg-white z-10"></div>
+                <a href="#" class="hover:text-red-600 transition duration-200 z-10">Privacy policy</a>
+                <div class="md:h-8 w-[2px] bg-white z-10"></div>
+                <a href="#" class="hover:text-red-600 transition duration-200 z-10">Contact Us</a>
+                <div class="md:h-8 w-[2px] bg-white z-10"></div>
+                <a href="#" class="hover:text-red-600 transition duration-200 z-10">Help</a>
+            </div>
+            <div class="flex justify-center py-3 pb-7">
+                <p class="text-center text-white z-10">&copy Ministry of Tourism, Government of India. IN
+                </p>
+            </div>
+        </div>
+        <!-- Dark overlay-->
+
+        <div class="absolute inset-0 bg-black/60"></div>
+    </section>
+
+
+
+</body>
+
+</html>
