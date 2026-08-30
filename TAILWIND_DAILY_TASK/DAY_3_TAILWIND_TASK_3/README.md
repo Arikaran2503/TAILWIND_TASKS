@@ -1,5 +1,9 @@
 # IndusInd Bank Credit Card Payment Form
 
+## Output Screenshot
+
+<img width="1895" height="907" alt="Screenshot 2026-08-30 205607" src="https://github.com/user-attachments/assets/7b7ba74a-2614-4c2f-8057-4593f790f8f6" />
+
 A simple, responsive **IndusInd Bank Credit Card Payment** form built using **HTML5** and **Tailwind CSS**.
 
 ## 📌 Features
