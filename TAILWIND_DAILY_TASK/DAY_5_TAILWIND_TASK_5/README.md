@@ -1,5 +1,10 @@
 # ShopEasy - Responsive E-Commerce Website
 
+## Output Screenshot
+
+<img width="1845" height="908" alt="output_screenshot" src="https://github.com/user-attachments/assets/c45a25e4-a1d5-4a2a-a39e-11256b378590" />
+
+
 A simple and responsive **E-Commerce Website** built using **HTML5** and **Tailwind CSS**. This project is designed as a beginner-friendly front-end project and can be hosted directly on GitHub Pages.
 
 ## 🚀 Project Overview
